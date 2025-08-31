@@ -3,7 +3,7 @@ class sum_of_digits
 {
     static void Main()
     {
-        Console.WriteLine("Enter number: ");
+        Console.Write("Enter number: ");
         int num = Convert.ToInt32(Console.ReadLine());
         int len = num.ToString().Length;
         int[] num_array = new int[len];
