@@ -13,7 +13,7 @@ class sum_of_digits
             num = num / 10;
         }
         int sum = 0;
-        for (int i = 0; i < num_array.Length; i++)
+        for (int i = 0; i < len; i++)
         {
             sum += num_array[i];
         }
