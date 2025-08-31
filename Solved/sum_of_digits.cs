@@ -4,6 +4,7 @@ class sum_of_digits
     static void Main()
     {
         Console.Write("Enter number: ");
+        //input only positive integrs:
         int num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
         int sum = 0;
         while (num != 0)
